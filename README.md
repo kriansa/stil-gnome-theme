@@ -15,9 +15,9 @@ consistent experience.
 
 #### How it looks
 
-![tiled view](images/ss_tiled.png)
-![spotify maximized](images/ss_spotify.png)
-![overview](images/ss_overview.png)
+Side-by-side Tiled windows   |  Spotify                      | Overview
+:---------------------------:|:-----------------------------:|:----------------------------:
+![](images/ss_tiled.png)     |  ![](images/ss_spotify.png)   | ![](images/ss_overview.png)
 
 ### Shell
 
