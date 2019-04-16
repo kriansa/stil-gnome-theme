@@ -1,0 +1,98 @@
+/* GLOBALS */
+stage {
+  font-family: Roboto Condensed, Sans-Serif;
+}
+
+/* Dash is the left menu on the overview mode */
+#dash {
+  font-size: 20pt;
+  color: #ffffff;
+  background: transparent;
+  padding: 4px 0;
+  border: transparent; }
+
+/* Remove background from the icons on the Dash */
+#dash .overview-icon StIcon {
+  icon-shadow: rgba(0, 0, 0, 0.7) 0px 2px 6px;
+  color: #FFF; }
+
+/* Remove background from the icons on the Dash */
+.app-well-app:active .overview-icon, .app-well-app:checked .overview-icon, .app-well-app:hover .overview-icon, .app-well-app:focus .overview-icon, .app-well-app:selected .overview-icon,
+.app-well-app.app-folder:active .overview-icon,
+.app-well-app.app-folder:checked .overview-icon,
+.app-well-app.app-folder:hover .overview-icon,
+.app-well-app.app-folder:focus .overview-icon,
+.app-well-app.app-folder:selected .overview-icon,
+.show-apps:active .overview-icon,
+.show-apps:checked .overview-icon,
+.show-apps:hover .overview-icon,
+.show-apps:focus .overview-icon,
+.show-apps:selected .overview-icon,
+.grid-search-result:active .overview-icon,
+.grid-search-result:checked .overview-icon,
+.grid-search-result:hover .overview-icon,
+.grid-search-result:focus .overview-icon,
+.grid-search-result:selected .overview-icon {
+  background-color: rgba(219, 222, 224, 0.1);
+  transition-duration: 100ms;
+  border-image: none;
+  background-image: none;
+  box-shadow: none; }
+
+/* The tick below the application icon on the dash left menu */
+.app-well-app-running-dot {
+  width: 10px;
+  border-radius: 3px;
+  height: 3px;
+  background-color: #FFF;
+  margin-bottom: 2px; }
+
+/* Weirdly enough, the base theme sets the caret color to black which has no contrast */
+.search-entry {
+  caret-color: #fff; }
+
+.workspace-thumbnails {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  visible-width: 32px;
+  spacing: 11px;
+  padding: 8px;
+  border-radius: 6px 0 0 6px; }
+
+.workspace-thumbnail-indicator {
+  border: 5px solid #FFF;
+  border-radius: 6px;
+  padding: 0; }
+
+/* TOP BAR (Panel) */
+#panel {
+  border-bottom: 2px solid;
+  border-color: #444;
+  background: rgb(50, 50, 50); }
+
+/* Hide the application icon */
+#panel .panel-button .app-menu-icon  {
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0; }
+
+/* Hide the arrow down */
+#panel .panel-button .popup-menu-arrow {
+  width: 0; }
+
+/* Puts Arch logo instead of "Activities" */
+#panel #panelActivities.panel-button StLabel {
+  border: 0;
+  background-image: url("assets/archlinux-logo-white.svg");
+  background-size: 1.2em;
+  margin: 0 .6em 0 .3em;
+  width: 1em;
+  color: transparent; }
+
+/* Disable the small edge round corners under the top bar */
+.panel-corner { 
+  -panel-corner-radius: 0px;
+  -panel-corner-background-color: transparent;
+  -panel-corner-border-width: 0px;
+  -panel-corner-border-color: transparent; }
